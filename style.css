@@ -1,6 +1,70 @@
 .container{
     margin-bottom: 100px;
 }
-.discription{
-    padding: 40px 30px;
+.carousel-item{
+    padding: 20px 40px;
 }
+.buy-now-btn{
+    font-size: 12px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding:  9px 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;   
+}
+.carousel-indicators .active {
+    width: 30px;
+    height: 10px;
+
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, #FFB925 0%,#FFD326 100%);
+}
+.text-color{
+    font-weight: 700;
+    color: #FFA20E;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border: none;
+}
+.img-size img{
+    width: 100%;
+}
+.categories{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 8px lightgray;
+}
+.cat-border {
+    position: relative;
+    /* min-width:200px */
+  }
+.cat-border::after {
+    background-image: linear-gradient(to right, #ffdb0e 0%,#FF9C35 100%);
+    bottom: -15px;
+    content: "";
+    height: 8px;
+    position: absolute;
+    width: 100px;
+    border-radius: 10px;
+    left:50%;
+    transform: translateX(-50%);
+  }
