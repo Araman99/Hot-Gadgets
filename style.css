@@ -4,6 +4,9 @@
 .carousel-item{
     padding: 20px 40px;
 }
+nav-link:hover{
+    color: #FF9C35 !important;
+}
 .buy-now-btn{
     font-size: 12px;
     background-color: black;
